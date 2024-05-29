@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 30px;
+}
+.sumcontaner {
+  display: flex;
+
+  justify-content: center;
+}
+.contanerx {
+  display: flex;
+
+  background-color: rgb(38, 183, 228);
+}
+
+.contanery {
+  background-color: rgb(150, 160, 219);
+  margin-left: 50px;
+  width: 200px;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+}
+.contanery > .array1 {
+  margin-right: 80px;
+  padding-left: 10px;
+}
+.footer {
+  font-size: 20px;
+  width: 650px;
+  margin-left: 22px;
+  margin-top: 40px;
+  background-color: rgb(36, 33, 33);
+  color: white;
+  line-height: 40px;
+}
+.contaner2 {
+  margin-left: 60px;
+}
+.chills {
+  display: flex;
+}
+.tong {
+  background-color: rgb(150, 203, 219);
+  max-width: 700px;
+}

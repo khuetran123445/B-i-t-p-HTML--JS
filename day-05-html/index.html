@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 style="padding: 5px; margin-left: 210px">Responsive Chekout Form</h2>
+    <div class="tong">
+      <div class="sumcontaner">
+        <div class="contanerx">
+          <div class="contaner1">
+            <div class="chill1">
+              <form>
+                <h3>Billing Adress</h3>
+                <label for="name">Fullname</label><br />
+                <input type="text" name="name" placeholder="John M.Doe" /><br />
+                <label for="Email">Email</label><br />
+                <input type="email" name="email" /><br />
+                <label for="address">Address</label><br />
+                <input type="text" name="address" /><br />
+                <label for="city">City</label><br />
+                <input type="text" name="city" />
+
+                <div class="chills">
+                  <div class="chills1">
+                    <label for="state">State</label><br />
+                    <input type="text" name="state" size="7" /><br />
+                  </div>
+                  <div class="chills2" style="margin-left: 5px">
+                    <label for="zip">Zip</label><br />
+                    <input type="text" name="zip" size="7" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="contaner2">
+            <div class="contaner1">
+              <div class="chill1">
+                <form>
+                  <h3>Payment</h3>
+                  <label for="name">
+                    <i class="fa-solid fa-user"></i>Fullname</label
+                  ><br />
+                  <input type="text" name="name" /><br />
+                  <label for="Email">Email</label><br />
+                  <input type="email" name="email" /><br />
+                  <label for="address">Address</label><br />
+                  <input list="browses" />
+                  <datalist id="browses">
+                    <option value="Danang"></option>
+                    <option value="qUANGnAM"></option></datalist
+                  ><br />
+                  <label for="city">City</label><br />
+                  <input type="text" name="city" />
+                </form>
+                <!-- <div class="chills">
+                  <div class="chills1">
+                    <form>
+                      <label style="width: 30px" for="state">State</label>
+                      <input type="text" name="state" />
+                    </form>
+                  </div>
+                  <div class="chills2">
+                    <form>
+                      <label for="zip">Zip</label>
+                      <input type="number" name="zip" />
+                    </form>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contanery">
+          <div class="array1">
+            <ul style="list-style-type: none; color: blue">
+              <li style="color: black">Cart</li>
+              <li>item1</li>
+              <li>item2</li>
+              <li>item3</li>
+              <li>item4</li>
+              <li style="color: black">Total</li>
+            </ul>
+          </div>
+          <div class="array2">
+            <ul style="list-style-type: none">
+              <li>
+                <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+              </li>
+              <li>$15</li>
+              <li>$5</li>
+              <li>$5</li>
+              <li>$5</li>
+              <li>$30</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="button">
+          <input type="button" class="footer" value="Continue to checkout" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

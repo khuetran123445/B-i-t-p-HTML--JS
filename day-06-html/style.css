@@ -1,0 +1,26 @@
+.header {
+  max-width: 500px;
+}
+.contaner {
+  border-collapse: collapse;
+  line-height: 40px;
+  width: 100%;
+}
+.contaner tr td:first-child {
+  width: 40%;
+}
+
+.contaner tr td:last-child {
+  width: 60%;
+}
+
+.contaner tr:nth-child(2n + 1) {
+  background-color: #f2f2f2;
+}
+.chill .view {
+  color: #74c0fc;
+  font-size: 30px;
+  border: 1px solid #74c0fc;
+  text-align: center;
+  width: 80%;
+}

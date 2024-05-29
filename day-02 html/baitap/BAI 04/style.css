@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: blue;
+}
+.link {
+  color: purple;
+  font-weight: bolder;
+}
+.khue {
+  margin-left: 20px;
+}
+.box {
+  list-style-type: lower-alpha;
+}
+.box1 {
+  list-style-type: circle;
+}
